@@ -2,7 +2,7 @@ import pytest
 
 from pay.processor import PaymentProcessor
 
-API_KEY = "DUMMY_API_KEY" # Preliminary version, never expose the API Key.
+API_KEY = "DUMMY_API_KEY"  # Preliminary version, never expose the API Key.
 
 
 def test_api_key_invalid() -> None:

@@ -9,5 +9,6 @@ def main():
     order.line_items.append(LineItem(name="hat", price=50_00))
     pay_order(order)
 
+
 if __name__ == "__main__":
     main()
